@@ -1,0 +1,83 @@
+.primera-fila {
+    padding: 50px;
+}
+
+.segunda-fila {
+    padding-top: 5px;
+    padding-left:50px
+}
+
+.tercera-fila {
+    padding-top: 50px;
+    padding-left:50px
+}
+
+.button {
+margin: 10px;
+width: 125px;
+padding: 15px 15px 15px 15px;
+text-align: center;
+color: fff;
+}
+
+.button2 {
+    margin: 10px;
+    width: 125px;
+    padding: 15px 15px 15px 15px;
+    text-align: center;
+    color: fff;
+    border-radius: 40px 40px 40px 40px;
+    }
+
+.button3 {
+    margin: 10px;
+    width: 125px;
+    padding: 15px 15px 15px 15px;
+    text-align: center;
+    color: fff;
+    border-radius: 10px 10px 10px 10px;
+    }    
+
+
+.button-inactive {
+    background-color: transparent;
+    border: 2px;
+    border-style:solid;
+    border-color: grey;
+}
+
+.button-active {
+    background-color: blue;
+    border: 2px;
+    border-style:solid;
+    border-color: blue;
+    color: #fff;
+}
+
+.button-action {
+    background-color: green;
+    border: 2px;
+    border-style:solid;
+    border-color: green;
+    color: #fff;
+}
+
+.button-alarm {
+    background-color: orangered;
+    border: 2px;
+    border-style:solid;
+    border-color: orangered;
+    color: #fff;
+}
+
+.button-danger {
+    background-color: red;
+    border: 2px;
+    border-style:solid;
+    border-color: red;
+    color: #fff;
+}
+
+.button-inactive.button-active.button-action {
+    border-radius: 40px 40px 40px 40px;
+}
